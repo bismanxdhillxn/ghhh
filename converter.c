@@ -99,4 +99,14 @@ int main() {
    }
   return 0;
   hello is bisman dhillon 
+
+
+  else if(massChoice == 2) {
+          printf("Please enter the gram amount: \n");
+          scanf("%d",&userinputGram);
+          gramsToPounds = userinputGram * 0.00220462;
+          printf("Pounds: %.2f",gramsToPounds);
+      }
+      else 
+        printf("Please enter the correct choice. \n");
 }
